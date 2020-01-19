@@ -38,7 +38,8 @@
 + (NSString *)mj_localizedStringForKey:(NSString *)key value:(NSString *)value
 {
     static NSBundle *bundle = nil;
-    if (bundle == nil) {
+//    if (bundle == nil)
+    {
         NSString *language = MJRefreshConfig.defaultConfig.languageCode;
         // 如果配置中没有配置语言
         if (!language) {
